@@ -1,0 +1,22 @@
+#text{
+    margin: 0px;
+    border: solid blue 5px;
+    background-image:url("assets/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#Input{
+    background-color: rgb(4,4,4,0.3);
+    font-size: large;
+    color: blue;
+    outline: none;
+    border: 4px solid black;
+    border-radius: 4px;
+}
