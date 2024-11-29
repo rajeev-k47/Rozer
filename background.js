@@ -18,7 +18,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
   console.log('Keypressed:',message.key);
   if (message.key === '.') {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      chrome.tabs.create({url: "https://rajeev-k47.github.io/custom-startpage/"});
+      chrome.tabs.create({url: "https://localhost:8000"});
     });
   }
   if (message.key === 'Alt') {
